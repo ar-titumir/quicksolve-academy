@@ -5,7 +5,7 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "+8801829452262",
   email: "support@quicksolveacademy.com",
   address: "Karwan Bazar, Dhaka, Bangladesh",
-  facebook: "https://facebook.com/QuickSolveAcademy"
+  facebook: "https://www.facebook.com/QuickSolve.Academy"
 };
 
 export const FEATURES: Feature[] = [

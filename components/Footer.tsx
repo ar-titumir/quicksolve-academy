@@ -22,6 +22,7 @@ const Footer: React.FC = () => {
                 target="_blank" 
                 rel="noreferrer"
                 className="bg-brand-600 p-2 rounded-lg text-white hover:bg-brand-700 transition-colors"
+                aria-label="Facebook Page"
               >
                 <Facebook size={20} />
               </a>
@@ -42,6 +43,10 @@ const Footer: React.FC = () => {
               <li className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-2 text-brand-500 flex-shrink-0" />
                 <a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-white transition-colors">{CONTACT_INFO.email}</a>
+              </li>
+              <li className="flex items-center text-gray-400">
+                <Facebook className="h-5 w-5 mr-2 text-brand-500 flex-shrink-0" />
+                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Connect in Facebook</a>
               </li>
             </ul>
           </div>
