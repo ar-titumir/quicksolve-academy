@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-bengali leading-tight mb-6">
               SSC Math MCQ নিয়ে <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-accent-400">আর টেনশন নেই!</span> 🚀
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">আর টেনশন নেই!</span> 🚀
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 font-bengali mb-4 font-light">
